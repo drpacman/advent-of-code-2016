@@ -3,16 +3,6 @@ defmodule Day1 do
   Documentation for Day1.
   """
 
-  @doc """
-    Hello world.
-
-    Examples
-
-  iex> Day1.navigate([0,0], "R1", :north)
-  { [1,0], :east }
-      
-  
-  """
   def navigate( pos, instruction, direction \\ :north) do
     [ x, y ] = pos
     case Regex.run(~r/([LR])([0-9]+)/, instruction ) do
@@ -52,11 +42,11 @@ defmodule Day1 do
       [ head | tail ] ->
         { new_pos, new_dir } = navigate(pos, head, dir)
         new_locations = generate_locations(pos, new_pos)
-        duplicate = Enum.find( new_locations, &( is_existing_location(locations, &1) ))
-        if (duplicate) do
-          duplicate
-        else
-          find_first_duplicate(tail, new_pos, new_dir, new_locations ++ locations)
+        case Enum.find( new_locations, &(is_existing_location(locations, &1 ))) do
+          nil ->
+             find_first_duplicate(tail, new_pos, new_dir, new_locations ++ locations)
+          duplicate ->
+            duplicate
         end
     end
   end
@@ -76,7 +66,7 @@ defmodule Day1 do
 
   def main(_args \\ []) do
     instrs = load_instructions()
-    { [x,y], dir } = navigate_all(instrs)
+    { [x,y], _ } = navigate_all(instrs)
     IO.puts("Part 1 is #{abs(x) + abs(y)}")
     [dx, dy ] = find_first_duplicate(instrs)
     IO.puts("Part 2 is #{abs(dx) + abs(dy)}")
