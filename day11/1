@@ -1,0 +1,3112 @@
+Compiling 1 file (.ex)
+......Here step 0
+#MapSet<[
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[]>
+    ]
+  }
+]>
+Here step 1
+#MapSet<[
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, h: :m, l: :g]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[]>
+    ]
+  }
+]>
+Here step 2
+#MapSet<[
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :g, h: :m, l: :g]>,
+      #MapSet<[]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[h: :g, l: :g]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g, h: :m]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[l: :g]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, l: :g]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g]>
+    ]
+  }
+]>
+Here step 3
+#MapSet<[
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :g, l: :g, l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :g, l: :g, l: :m]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[l: :g]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[]>
+    ]
+  }
+]>
+Here step 4
+#MapSet<[
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :g, l: :g, l: :m]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :g, h: :m, l: :g, l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[h: :m]>,
+      #MapSet<[h: :g, l: :g, l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[l: :g]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :g]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[]>,
+      #MapSet<[l: :g]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, h: :m, l: :g]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, h: :m]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[h: :g]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[]>,
+      #MapSet<[l: :g]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[]>,
+      #MapSet<[h: :m]>
+    ]
+  }
+]>
+Here step 5
+#MapSet<[
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :g, h: :m, l: :g, l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[h: :g, l: :g]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :g]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[h: :g, l: :g, l: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[]>,
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :g, h: :m, l: :g]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :g, l: :g, l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[h: :m]>,
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, h: :m, l: :g, l: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[h: :g]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :m]>,
+      #MapSet<[h: :g, l: :g, l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[h: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :g, h: :m, l: :g]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[l: :g]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g, h: :m]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[]>,
+      #MapSet<[l: :g]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :g, l: :g, l: :m]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :g, h: :m, l: :g]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[h: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, l: :g, ...]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[l: :g, ...]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [#MapSet<[l: :m]>, #MapSet<[h: :g, ...]>, #MapSet<[]>, ...]
+  }
+]>
+Here step 6
+#MapSet<[
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :g, l: :g]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[]>,
+      #MapSet<[]>,
+      #MapSet<[h: :m, l: :m]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g, l: :m]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[h: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[h: :g]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, h: :m]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[h: :m]>,
+      #MapSet<[]>,
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[h: :g]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[h: :g, l: :g, l: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g, h: :m]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :g, h: :m, l: :g]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, h: :m, l: :g]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[]>,
+      #MapSet<[h: :m, l: :m]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, h: :m]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :g, h: :m, l: :g]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :g, l: :g, l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, l: :g, l: :m]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[h: :g]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, l: :g]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[h: :m]>,
+      #MapSet<[]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :g, l: :g]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[...]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [#MapSet<[h: :g, h: :m]>, #MapSet<[l: :g, ...]>, #MapSet<[]>, ...]
+  },
+  %{floor: 3, floors: [#MapSet<[]>, #MapSet<[...]>, ...]},
+  %{floor: 1, floors: [#MapSet<[...]>, ...]},
+  %{floor: 1, floors: [...]},
+  %{floor: 3, ...},
+  %{...},
+  ...
+]>
+Here step 7
+#MapSet<[
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[l: :g]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[h: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, l: :g, l: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[h: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[l: :g]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :m]>,
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :g, h: :m, l: :g]>,
+      #MapSet<[]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, l: :g]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[h: :m]>,
+      #MapSet<[]>,
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[h: :g]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[]>,
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[]>,
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :g]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, h: :m, l: :g]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[h: :g, l: :g, l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[l: :g]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, h: :m]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[h: :g]>,
+      #MapSet<[]>,
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[h: :g, h: :m, l: :g]>,
+      #MapSet<[]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[]>
+    ]
+  },
+  %{floor: 2, floors: [#MapSet<[]>, #MapSet<[]>, #MapSet<[...]>, ...]},
+  %{floor: 0, floors: [#MapSet<[l: :g]>, #MapSet<[...]>, ...]},
+  %{floor: 2, floors: [#MapSet<[...]>, ...]},
+  %{floor: 0, floors: [...]},
+  %{floor: 2, ...},
+  %{...},
+  ...
+]>
+Here step 8
+#MapSet<[
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :g, h: :m, l: :g]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[l: :g]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, h: :m]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[h: :g]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :g]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, h: :m, l: :g]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, l: :g]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, l: :g]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[h: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[h: :g, l: :g, l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[h: :g, h: :m, l: :g]>,
+      #MapSet<[]>,
+      #MapSet<[]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, h: :m]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[h: :m]>,
+      #MapSet<[]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, l: :g, l: :m]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[l: :g]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[h: :g, l: :g, l: :m]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :g, h: :m, l: :g]>,
+      #MapSet<[]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[l: :g]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[]>,
+      #MapSet<[l: :g]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[h: :g]>,
+      #MapSet<[]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :m, l: :m]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, l: :g, l: :m]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[h: :g, ...]>,
+      #MapSet<[...]>
+    ]
+  },
+  %{floor: 3, floors: [#MapSet<[h: :g, h: :m]>, #MapSet<[]>, #MapSet<[]>, ...]},
+  %{floor: 1, floors: [#MapSet<[h: :m]>, #MapSet<[...]>, ...]},
+  %{floor: 1, floors: [#MapSet<[...]>, ...]},
+  %{floor: 3, floors: [...]},
+  %{floor: 1, ...},
+  %{...}
+]>
+Here step 9
+#MapSet<[
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :g, h: :m]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g, l: :m]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, h: :m]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[l: :g]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :g]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[h: :g, l: :g]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :m]>,
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, l: :g]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[l: :g]>,
+      #MapSet<[]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :g, h: :m]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :g, l: :g]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[h: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g, l: :m]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[]>,
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[h: :g, h: :m]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[l: :g]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, h: :m]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :g, h: :m, l: :g]>,
+      #MapSet<[]>,
+      #MapSet<[]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[l: :g]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[l: :g, l: :m]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[]>,
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[h: :g, l: :g]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[h: :m]>,
+      #MapSet<[]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :g, l: :g]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, l: :g]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g, h: :m]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :g]>,
+      #MapSet<[]>,
+      #MapSet<[l: :g, l: :m]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[...]>
+    ]
+  },
+  %{floor: 2, floors: [#MapSet<[h: :m]>, #MapSet<[l: :g]>, #MapSet<[...]>, ...]}
+]>
+Here step 10
+#MapSet<[
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :g, l: :m]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g, l: :m]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :g, l: :g]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :g, h: :m]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[h: :g, l: :g]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g, h: :m]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[]>,
+      #MapSet<[l: :g, l: :m]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[h: :g]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[h: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[]>,
+      #MapSet<[l: :g, l: :m]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[l: :g]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[]>,
+      #MapSet<[l: :g]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[h: :m, l: :m]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, h: :m, l: :g, l: :m]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[h: :m, l: :m]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[]>,
+      #MapSet<[h: :m, l: :m]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :m]>
+    ]
+  }
+]>
+Here step 11
+#MapSet<[
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :g]>,
+      #MapSet<[]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :g, l: :m]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :g]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[]>,
+      #MapSet<[l: :g, l: :m]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g, l: :m]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :m]>,
+      #MapSet<[]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :g, l: :g]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[]>,
+      #MapSet<[l: :g, l: :m]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[l: :g]>,
+      #MapSet<[]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :g, h: :m]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[h: :g, l: :g]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g, h: :m]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[]>,
+      #MapSet<[]>,
+      #MapSet<[l: :g, l: :m]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[h: :g, l: :g, l: :m]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :g, h: :m, l: :g]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[h: :m, l: :m]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :g, l: :m]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[l: :g]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, h: :m]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[h: :m]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :m]>
+    ]
+  }
+]>
+Here step 12
+#MapSet<[
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :m, l: :m]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, l: :g, l: :m]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[h: :m, l: :m]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, h: :m, l: :g]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[]>,
+      #MapSet<[h: :m, l: :m]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[h: :g]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[]>,
+      #MapSet<[l: :g, l: :m]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :m]>
+    ]
+  },
+  %{
+    floor: 3,
+    floors: [
+      #MapSet<[l: :g]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[h: :m, l: :m]>
+    ]
+  }
+]>
+Here step 13
+#MapSet<[
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :g]>,
+      #MapSet<[]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :m, l: :m]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[]>,
+      #MapSet<[h: :m, l: :m]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :m]>,
+      #MapSet<[]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, l: :g, l: :m]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[l: :g]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[h: :m, l: :m]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[]>,
+      #MapSet<[h: :m, l: :m]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[l: :m]>,
+      #MapSet<[]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g, h: :m, l: :g]>
+    ]
+  },
+  %{
+    floor: 0,
+    floors: [
+      #MapSet<[h: :g, l: :g]>,
+      #MapSet<[]>,
+      #MapSet<[]>,
+      #MapSet<[h: :m, l: :m]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :m, l: :m]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[h: :m, l: :m]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[h: :g]>,
+      #MapSet<[]>,
+      #MapSet<[h: :m]>,
+      #MapSet<[l: :g, l: :m]>
+    ]
+  }
+]>
+Here step 14
+#MapSet<[
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[h: :g]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[]>,
+      #MapSet<[h: :m, l: :m]>
+    ]
+  },
+  %{
+    floor: 1,
+    floors: [
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[]>,
+      #MapSet<[h: :m, l: :m]>
+    ]
+  }
+]>
+Here step 15
+#MapSet<[
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[h: :g]>,
+      #MapSet<[]>,
+      #MapSet<[l: :g]>,
+      #MapSet<[h: :m, l: :m]>
+    ]
+  },
+  %{
+    floor: 2,
+    floors: [
+      #MapSet<[l: :g]>,
+      #MapSet<[]>,
+      #MapSet<[h: :g]>,
+      #MapSet<[h: :m, l: :m]>
+    ]
+  }
+]>
+Here step 16
+#MapSet<[]>
+Failed search - after 16
+
+
+  1) test test process of example (Day11Test)
+     test/day11_test.exs:40
+     Assertion with == failed
+     code:  assert Day11.process([@structure]) == 11
+     left:  -1
+     right: 11
+     stacktrace:
+       test/day11_test.exs:41: (test)
+
+
+
+Finished in 0.08 seconds
+7 tests, 1 failure
+
+Randomized with seed 622530
